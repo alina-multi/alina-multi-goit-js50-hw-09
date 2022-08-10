@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+
+}
+
+
+.calendar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+button {
+
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    margin: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: inherit;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 120px;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-style: bold;
+    padding: 10px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+}
